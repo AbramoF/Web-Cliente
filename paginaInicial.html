@@ -17,9 +17,11 @@
     </nav>
 
     <div>
-        <img src="imagem\banner.png" media="(min-width: 640px)" alt="Área para Imagens Dinâmicas" > <!--banner grande-->
-        <br>
-        <img src="imagem\banner1.png" media="(min-width: 120px)" alt="Área para Imagens Dinâmicas" > <!--banner peq-->
+        <picture>
+
+            <source media="(min-width: 640px)" srcset="imagem\banner1.png" > <!--banner grande-->
+            <img src="imagem\banner1.png" alt="Banner" style="width:auto;"> <!--banner peq-->
+        </picture>
     </div>
 
 
