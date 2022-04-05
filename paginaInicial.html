@@ -4,33 +4,33 @@
     <head>
         <meta charset='utf-8'>
         <title>Loja do Hardware Inicio</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='css\main.css'>
     </head>
     <body>
     
-    <nav>
-        <h1>
-            <a href="paginaInicial.html">Pagina Inicial</a>
-            <a href="paginaDeProdutos.html">Produtos</a>
-            <a href="cadastro.html">Login/Cadastro</a>
-            <a href="contato.html">Contato</a>
-        </h1>
+        <div class="header">
+            <picture>
+                <source media="(min-width: 640px)" srcset="imagem\banner1.png" > <!--banner grande-->
+                <img src="imagem\banner1.png" alt="Banner" style="width:auto;"> <!--banner peq-->
+            </picture>
+          </div>
+
+    <nav >
+        <ul>
+            <li class="active"><a href="paginaInicial.html">Pagina Inicial</a></li>
+            <li><a href="paginaDeProdutos.html">Produtos</a></li>
+            <li><a href="cadastro.html">Login/Cadastro</a></li>
+            <li style="float:right"><a href="contato.html">Contato</a></li>
+        </ul>
     </nav>
 
-    <div>
-        <picture>
 
-            <source media="(min-width: 640px)" srcset="imagem\banner1.png" > <!--banner grande-->
-            <img src="imagem\banner1.png" alt="Banner" style="width:auto;"> <!--banner peq-->
-        </picture>
-    </div>
-
-
-    <hr>
+    <br>
     <h2>Destaques</h2>
         
     <div>
   
-            <a href="produto1.html">    
+            <a id="produto" href="produto1.html">    
                 <img src="imagem\r53600.png" alt="Processador Ryzen 5 3600" width="200" height="200"/>
             </a>
  
