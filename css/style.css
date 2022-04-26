@@ -57,7 +57,7 @@
     margin-bottom: 1rem;
     color: #ffc400;
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: center;
     padding: 0.8rem 0.9rem;
     width: 40%;
@@ -68,9 +68,9 @@
     background-color: #333;
   }
 
-  legend{
-    font-size: 1.1rem;
-  }
+  p{                /* mudar o p pras medias queries */
+    font-size: 1.2rem;
+    }
 
 }
 
@@ -84,9 +84,6 @@
   float: right;
 }
 
-p{                /* mudar o p pras medias queries */
-font-size: 16px;
-}
 
 .banner{
   width: 100%;
@@ -100,13 +97,13 @@ font-size: 16px;
 @media screen and (max-width:768px){
 
   body {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: grey;
   }
   footer{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     font-family: 'Times New Roman', Times, serif;
   }
   ul {
@@ -151,7 +148,7 @@ font-size: 16px;
     margin-bottom: 1rem;
     color: #ffc400;
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
     padding: 0.8rem 0.9rem;
     width: 40%;
@@ -162,6 +159,9 @@ font-size: 16px;
     background-color: #333;
   }
 
+  p{                /* mudar o p pras medias queries */
+    font-size: 1rem;
+    }
 
 }
 
@@ -171,13 +171,13 @@ font-size: 16px;
 @media screen and (max-width:320px){
 
   body {
-    font-size: 0.48rem;
+    font-size: 0.7rem;
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: grey;
   }
   footer{
-    font-size: 0.25rem;
+    font-size: 0.4rem;
     font-family: 'Times New Roman', Times, serif;
   }
   ul {
@@ -224,7 +224,7 @@ font-size: 16px;
     margin-bottom: 1rem;
     color: #ffc400;
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     text-align: center;
     padding: 0.8rem 0.9rem;
     width: 40%;
@@ -235,9 +235,8 @@ font-size: 16px;
     background-color: #333;
   }
 
-  legend{
+  p{                /* mudar o p pras medias queries */
     font-size: 0.7rem;
-  }
-
+    }
 
 }
