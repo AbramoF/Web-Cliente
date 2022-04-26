@@ -28,6 +28,7 @@
     display: block;
     color: white;
     text-align: center;
+    text-decoration: none;
     padding: 14px 16px;
   }
   
@@ -52,6 +53,7 @@
   }
   
   fieldset{
+    margin-bottom: 1rem;
     color: #ffc400;
     display: block;
     font-size: 0.7rem;
@@ -75,11 +77,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
 }
 
+.r{
+  float: right;
+}
 
+p{                /* mudar o p pras medias queries */
+font-size: 16px;
+}
+
+.banner{
+  width: 100%;
+}
+
+.tam{
+  width: 20%;
+  height: 20%;
+}
 
 @media screen and (max-width:768px){
 
@@ -132,6 +147,7 @@
   }
   
   fieldset{
+    margin-bottom: 1rem;
     color: #ffc400;
     display: block;
     font-size: 0.7rem;
@@ -204,6 +220,7 @@
   }
   
   fieldset{
+    margin-bottom: 1rem;
     color: #ffc400;
     display: block;
     font-size: 0.7rem;
@@ -214,7 +231,6 @@
     justify-content: center;
     border: 1px solid #333 ;
     border-radius: 10px;
-    font-size: 0.5rem;
     background-color: #333;
   }
 
