@@ -10,8 +10,9 @@
      
     <div class="header">
         <picture>
-            <source media="(min-width: 640px)" srcset="imagem\banner1.png" > <!--banner grande-->
-            <img src="imagem\banner1.png" alt="Banner" style="width:auto;"> <!--banner peq-->
+            <source media="(max-width: 320px)" srcset="imagem\banner2.png"> <!--banner peq-->
+            <source media="(max-width: 768px)" srcset="imagem\banner1.png" > <!--banner medio-->
+            <img src="imagem\banner1.png" alt="Banner" style="width:auto"> <!--banner grande-->
         </picture>
       </div>
 
@@ -24,54 +25,56 @@
     </ul>
 </nav>
 
+<div class="flex-container">
 
     <br>
-
+    
     <fieldset>
-        <legend><h2>Login</h2></legend>
+        <legend>Login</legend>
         
         <form method="post" action="">
-
-            <label>* E-mail: <input type="email" name="email" required placeholder="usuario@email.com" size="50"></label></br>        
             
-            <label>* Senha: <input type="password" name="senha" required size="50"></label><br>
+            <label> E-mail: <br><input type="email" name="email" required placeholder="usuario@email.com" size="30%"></label></br>        
+            
+            <label> Senha: <br><input type="password" name="senha" required size="30%"></label><br>
             
             <button type="submit">Entrar</button>
         </form>
-    
+        
     </fieldset>
-
+    
     <fieldset>
         <legend>
-            <h2>Quero me cadastrar</h2></br>
+            Quero me cadastrar</br>
         </legend>
-
+        
         <form method="post" action="">
-            <label>* Nome: <input type="text" name="nome" required placeholder="Nome Completo" size="50"></label></br>
-         
-            <label>* E-mail: <input type="email" name="email" required placeholder="usuario@email.com" size="50"></label></br>
-         
-            <label>* Senha: <input type="password" name="senha" required size="50"></label><br>
-         
-            <label>* CPF: <input type="text" name="cpf" required placeholder="40028922124" size="50" maxlength="11"></label></br>
-         
-            <label>* CEP: <input type="text" name="cep" required placeholder="05900111" size="50" maxlength="8"></label></br>
-         
-            <label>* Rua: <input type="text" name="rua" required placeholder="Rua Tiradentes" size="50"></label><br>
-        
-            <label>* Número: <input type="number" name="numero" required size="50"></label><br>
-        
-            <label>* Bairro: <input type="text" name="bairro" required size="50"></label><br>
-        
-            <label>* Cidade: <input type="text" name="cidade" required size="50"></label><br>
-        
+            <label> Nome: <br><input type="text" name="nome" required placeholder="Nome Completo" size="30%"></label></br>
+            
+            <label> E-mail: <br><input type="email" name="email" required placeholder="usuario@email.com" size="30%"></label></br>
+            
+            <label> Senha: <br><input type="password" name="senha" required size="30%"></label><br>
+            
+            <label> CPF: <br><input type="text" name="cpf" required placeholder="40028922124" size="30%" maxlength="11"></label></br>
+            
+            <label> CEP: <br><input type="text" name="cep" required placeholder="05900111"size="30%" maxlength="8"></label></br>
+            
+            <label> Rua: <br><input type="text" name="rua" required placeholder="Rua Tiradentes" size="30%"></label><br>
+            
+            <label> Número: <br><input type="number" name="numero" required size="5%"></label><br>
+            
+            <label> Bairro: <br><input type="text" name="bairro" required size="30%"></label><br>
+            
+            <label> Cidade: <br><input type="text" name="cidade" required size="30%"></label><br>
+            
             <button type="submit">Cadastrar</button>
         </form>
     </fieldset>
+</div>
+    
 
-
-
-
+    
+    
     <hr>
     <footer>
         <address>

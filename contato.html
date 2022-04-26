@@ -7,11 +7,12 @@
     
 </head>
 <body>
-    
+
     <div class="header">
         <picture>
-            <source media="(min-width: 640px)" srcset="imagem\banner1.png" > <!--banner grande-->
-            <img src="imagem\banner1.png" alt="Banner" style="width:auto;"> <!--banner peq-->
+            <source media="(max-width: 320px)" srcset="imagem\banner2.png"> <!--banner peq-->
+            <source media="(max-width: 768px)" srcset="imagem\banner1.png" > <!--banner medio-->
+            <img src="imagem\banner1.png" alt="Banner" style="width:auto"> <!--banner grande-->
         </picture>
       </div>
 
@@ -25,36 +26,38 @@
 </nav>
 
 <br>
+<div class="flex-container">
 
     <fieldset>
-
+        
         <legend> <h2>Fale Conosco</h2> </legend>
         
         
         <form method="post" action="">
             
-            <label>* Nome: <input type="text" name="nome" required placeholder="Nome Completo" size="50"></label></br>
+            <label>* Nome: <input type="text" name="nome" required placeholder="Nome Completo" size="30%"></label></br>
             
-            <label>* E-mail: <input type="email" name="email" required placeholder="usuario@email.com" size="50"></label></br>
+            <label>* E-mail: <input type="email" name="email" required placeholder="usuario@email.com" size="30%"></label></br>
             
-            <label>* Assunto: <input type="text" name="assunto" required placeholder="Sugestões, Reclamações, Elogios" size="50"></label></br>
-        
+            <label>* Assunto: <input type="text" name="assunto" required placeholder="Sugestões, Reclamações, Elogios" size="30%"></label></br>
+            
             * Mensagem</br>
             
-            <textarea name="mensagem" cols="38" rows="10" required placeholder="Digite aqui a sua mensagem..."></textarea></br>
+            <textarea name="mensagem" cols="24" rows="4" required placeholder="Digite aqui a sua mensagem..."></textarea></br>
             
             <button type="submit">Enviar</button>
         </form>
+    </div>
         
     </fieldset>
-
-<hr>
-<footer>
-    <address>
-        Loja do Hardware<br>
-        Fone: (42) 4002-8922<br>
-        R. Doutor Washington Subtil Chueire, 330 - Jardim Carvalho
-        <br>Ponta Grossa - Paraná
+    
+    <hr>
+    <footer>
+        <address>
+            Loja do Hardware<br>
+            Fone: (42) 4002-8922<br>
+            R. Doutor Washington Subtil Chueire, 330 - Jardim Carvalho
+            <br>Ponta Grossa - Paraná
     </address>
 </footer>
 </body>
