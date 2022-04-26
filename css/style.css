@@ -94,6 +94,12 @@
   height: 20%;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+  flex-direction: row ;
+}
+
 @media screen and (max-width:768px){
 
   body {
