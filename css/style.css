@@ -154,7 +154,7 @@
 @media screen and (max-width:320px){
 
   body {
-    font-size: 0.5rem;
+    font-size: 0.48rem;
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: grey;
