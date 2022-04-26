@@ -90,8 +90,18 @@
 }
 
 .tam{
-  width: 20%;
-  height: 20%;
+  width: 8rem;
+  object-fit: cover;
+}
+
+.itensProdutos>div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowProdutos a{
+  display:flex;
+  flex-direction: column;
 }
 
 .center{
