@@ -1,4 +1,116 @@
-@media screen and (max-width:1200px){
+body {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: grey;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  transition-duration: 0.4s;
+}
+
+.active {
+  background-color: #ffc400;
+}
+
+h1,
+h2 {
+  color: #ffc400;
+  display: block;
+  text-align: center;
+  padding: 0.8rem 0.9rem;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+fieldset {
+  margin-bottom: 1rem;
+  color: #ffc400;
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.8rem 0.9rem;
+  width: 30%;
+  overflow: hidden;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+p {
+  /* mudar o p pras medias queries */
+  font-size: 1.2rem;
+}
+
+.tam {
+  width: 18rem;
+  object-fit: cover;
+}
+
+.si{
+  size: 30%;
+}
+
+.form-submit-button {
+  background-color: #ffc400;
+  color: white;
+  height: 40px;
+  width: auto;
+  font: bold 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  transition-duration: 0.4s;
+}
+
+.form-submit-button2 {
+  background-color: #ffc400;
+  color: white;
+  height: 30px;
+  width: auto;
+  font: bold 15px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  transition-duration: 0.4s;
+}
+
+
+@media screen and (max-width:1200px) {
 
   body {
     font-size: 1.2rem;
@@ -7,10 +119,10 @@
     background-color: grey;
     align-items: center;
     padding: 0;
-    margin:0;
+    margin: 0;
   }
 
-  footer{
+  footer {
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -22,11 +134,11 @@
     overflow: hidden;
     background-color: #333;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: white;
@@ -34,16 +146,17 @@
     text-decoration: none;
     padding: 14px 16px;
   }
-  
+
   li a:hover:not(.active) {
     background-color: #111;
   }
-  
+
   .active {
     background-color: #ffc400;
   }
 
-  h1,h2{
+  h1,
+  h2 {
     color: #ffc400;
     display: block;
     text-align: center;
@@ -54,8 +167,61 @@
     overflow: hidden;
 
   }
+
+  fieldset {
+    margin-bottom: 1rem;
+    color: #ffc400;
+    display: block;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0.8rem 0.9rem;
+    width: 30%;
+    overflow: hidden;
+    justify-content: center;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+  }
+
+  p {
+    /* mudar o p pras medias queries */
+    font-size: 1.2rem;
+  }
+
+  .tam {
+    width: 18rem;
+    object-fit: cover;
+  }
+
+  .form-submit-button {
+    background-color: #ffc400;
+    color: white;
+    height: 40px;
+    width: auto;
+    font: bold 15px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    transition-duration: 0.4s;
+  }
+
+  .form-submit-button2 {
+    background: #ffc400;
+    color: white;
+    height: 30px;
+    width: auto;
+    font: bold 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    transition-duration: 0.4s;
+  }
   
-  fieldset{
+}
+
+.box{
+
     margin-bottom: 1rem;
     color: #ffc400;
     display: block;
@@ -65,53 +231,28 @@
     width: 40%;
     overflow: hidden;
     justify-content: center;
-    border: 1px solid #333 ;
+    border: 1px solid #333;
     border-radius: 10px;
     background-color: #333;
-  }
+  
 
-  p{                /* mudar o p pras medias queries */
-    font-size: 1.2rem;
-    }
-
-    .tam{
-      width: 18rem;
-      object-fit: cover;
-    }
-
-  .form-submit-button {
-    background: #333;
-    color: white;
-    border-style: outset;
-    border-color: #333;
-    height: 40px;
-    width: 250px;
-    font: bold 15px arial, sans-serif;
-    text-shadow:none;
-    background-color: #111;
-      
-      }
-
-      .form-submit-button2 {
-        background: #ffc400;
-        color: #333;
-        border-style: outset;
-        border-color: #ffc400;
-        height: 30px;
-        width: 150px;
-        font: bold 15px arial, sans-serif;
-        text-shadow:none;
-          
-          }
 }
 
-.flex-container{
+.form-submit-button:hover:not(.active) {
+  background-color: #ffc400a7;
+}
+
+.form-submit-button2:hover:not(.active) {
+  background-color: #ffc400a7;
+}
+
+.flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.flex-container-form{
+.flex-container-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,43 +260,43 @@
 }
 
 .itens {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   background: #808080;
 }
 
-#r{
+#r {
   float: right;
 }
 
-.rigth{
-  float:right;
+.rigth {
+  float: right;
 }
 
 
-.banner{
+.banner {
   width: 100%;
 }
 
-.rowProdutos{
+.rowProdutos {
   display: flex;
   justify-content: space-between;
 }
 
-.itens li a{
-  display:flex;
+.itens li a {
+  display: flex;
   flex-direction: column;
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
-  flex-direction: row ;
+  flex-direction: row;
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
   body {
     font-size: 1rem;
@@ -163,10 +304,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: grey;
   }
-  footer{
+
+  footer {
+
     font-size: 0.8rem;
     font-family: 'Times New Roman', Times, serif;
   }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -174,27 +318,28 @@
     overflow: hidden;
     background-color: #333;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: white;
     text-align: center;
     padding: 0.8rem 0.9rem;
   }
-  
+
   li a:hover:not(.active) {
     background-color: #111;
   }
-  
+
   .active {
     background-color: #ffc400;
   }
 
-  h1,h2{
+  h1,
+  h2 {
     color: #ffc400;
     display: block;
     text-align: center;
@@ -204,73 +349,64 @@
     padding: 0;
     overflow: hidden;
   }
-  
-  fieldset{
+
+  fieldset {
     margin-bottom: 1rem;
     color: #ffc400;
     display: block;
     font-size: 0.7rem;
     text-align: center;
     padding: 0.8rem 0.9rem;
-    width: 40%;
+    width: 30%;
     overflow: hidden;
     justify-content: center;
-    border: 1px solid #333 ;
+    border: 1px solid #333;
     border-radius: 10px;
     background-color: #333;
   }
 
-  p{                /* mudar o p pras medias queries */
+  p {
+    /* mudar o p pras medias queries */
     font-size: 1rem;
-    }
+  }
 
-    .tam{
-      width: 10rem;
-      object-fit: cover;
-    }
+  .tam {
+    width: 9rem;
+    object-fit: cover;
+  }
 
-    .form-submit-button {
-      background: #333;
-      color: white;
-      border-style: outset;
-      border-color: #333;
-      height: 40px;
-      width: 250px;
-      font: bold 15px arial, sans-serif;
-      text-shadow:none;
-        
-        }
+  .form-submit-button {
+    background: #ffc400;
+    color: white;
+    height: 40px;
+    width: auto;
+    font: bold 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
 
-        .form-submit-button2 {
-          background: #ffc400;
-          color: white;
-          border-style: outset;
-          border-color: #ffc400;
-          height: 30px;
-          width: 200px;
-          font: bold 15px arial, sans-serif;
-          text-shadow:none;
-            
-            }
 
-            .form-submit-button2 {
-              background: #ffc400;
-              color: #333;
-              border-style: outset;
-              border-color: #ffc400;
-              height: 30px;
-              width: 150px;
-              font: bold 15px arial, sans-serif;
-              text-shadow:none;
-                
-                }
+  .form-submit-button2 {
+    background-color: #ffc400;
+    color: white;
+    height: 30px;
+    width: auto;
+    font: bold 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin:5px;
+    transition-duration: 0.4s;
+  }
 
 }
 
 
 
 
-@media screen and (max-width:320px){
+@media screen and (max-width:320px) {
 
   body {
     font-size: 0.8rem;
@@ -278,10 +414,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: grey;
   }
-  footer{
+
+  footer {
     font-size: 0.4rem;
     font-family: 'Times New Roman', Times, serif;
   }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -289,11 +427,11 @@
     overflow: hidden;
     background-color: #333;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: white;
@@ -301,16 +439,17 @@
     padding: 0.8rem 0.9rem;
     text-decoration: none;
   }
-  
+
   li a:hover:not(.active) {
     background-color: #111;
   }
-  
+
   .active {
     background-color: #ffc400;
   }
 
-  h1,h2{
+  h1,
+  h2 {
     color: #ffc400;
     display: block;
     text-align: center;
@@ -321,54 +460,57 @@
     background-color: #333;
     overflow: hidden;
   }
-  
-  fieldset{
+
+  fieldset {
     margin-bottom: 1rem;
     color: #ffc400;
     display: block;
     font-size: 0.5rem;
     text-align: center;
     padding: 0.8rem 0.9rem;
-    width: 40%;
+    width: 30%;
     overflow: hidden;
     justify-content: center;
-    border: 1px solid #333 ;
+    border: 1px solid #333;
     border-radius: 10px;
     background-color: #333;
   }
 
-  p{                /* mudar o p pras medias queries */
+  p {
+    /* mudar o p pras medias queries */
     font-size: 0.8rem;
-    }
+  }
 
-    .tam{
-      width: 8rem;
-      object-fit: cover;
-    }
+  .tam {
+    width: 10rem;
+    object-fit: cover;
+  }
 
-    .form-submit-button {
-      background: #333;
-      color: white;
-      border-style: outset;
-      border-color: #333;
-      height: 40px;
-      width: 250px;
-      font: bold 15px arial, sans-serif;
-      text-shadow:none;
-        
-        }
+  .form-submit-button {
+    background-color: #ffc400;
+    color: white;
+    height: 40px;
+    width: 20px;
+    font: bold 15px;
+    border: none;
+    border-radius: 4px;
+    margin:5px;
+    transition-duration: 0.4s;
+  }
 
-        .form-submit-button2 {
-          background: #ffc400;
-          color: #333;
-          border-style: outset;
-          border-color: #ffc400;
-          height: 30px;
-          width: 150px;
-          font: bold 15px arial, sans-serif;
-          text-shadow:none;
-            
-            }
+  .form-submit-button2 {
+    background-color: #ffc400;
+    color: white;
+    height: 30px;
+    width: auto;
+    font: bold 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin:5px;
+    transition-duration: 0.4s;
+  }
+
+
 
 }
-
