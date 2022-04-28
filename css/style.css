@@ -148,8 +148,6 @@
     background-color: grey;
   }
   footer{
-    position: absolute;
-	  bottom: 0;
     font-size: 0.8rem;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -241,8 +239,6 @@
     background-color: grey;
   }
   footer{
-    position: absolute;
-	  bottom: 0;
     font-size: 0.4rem;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -323,3 +319,4 @@
         }
 
 }
+
