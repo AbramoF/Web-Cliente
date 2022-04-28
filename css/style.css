@@ -80,6 +80,11 @@ p {
   object-fit: cover;
 }
 
+.tam-destaques {
+  width: 18rem;
+  object-fit: cover;
+}
+
 .si{
   size: 30%;
 }
@@ -289,10 +294,11 @@ p {
   flex-direction: column;
 }
 
-.center {
+.center-itens {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
@@ -372,6 +378,11 @@ p {
 
   .tam {
     width: 9rem;
+    object-fit: cover;
+  }
+
+  .tam-destaques {
+    width: 7rem;
     object-fit: cover;
   }
 
@@ -483,6 +494,11 @@ p {
 
   .tam {
     width: 10rem;
+    object-fit: cover;
+  }
+
+  .tam-destaques {
+    width: 4rem;
     object-fit: cover;
   }
 
