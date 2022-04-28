@@ -91,6 +91,18 @@
     background-color: #111;
       
       }
+
+      .form-submit-button2 {
+        background: #ffc400;
+        color: white;
+        border-style: outset;
+        border-color: #ffc400;
+        height: 30px;
+        width: 150px;
+        font: bold 15px arial, sans-serif;
+        text-shadow:none;
+          
+          }
 }
 
 .flex-container{
@@ -225,6 +237,30 @@
         
         }
 
+        .form-submit-button2 {
+          background: #ffc400;
+          color: white;
+          border-style: outset;
+          border-color: #ffc400;
+          height: 30px;
+          width: 200px;
+          font: bold 15px arial, sans-serif;
+          text-shadow:none;
+            
+            }
+
+            .form-submit-button2 {
+              background: #ffc400;
+              color: white;
+              border-style: outset;
+              border-color: #ffc400;
+              height: 30px;
+              width: 150px;
+              font: bold 15px arial, sans-serif;
+              text-shadow:none;
+                
+                }
+
 }
 
 
@@ -317,6 +353,18 @@
       text-shadow:none;
         
         }
+
+        .form-submit-button2 {
+          background: #ffc400;
+          color: white;
+          border-style: outset;
+          border-color: #ffc400;
+          height: 30px;
+          width: 150px;
+          font: bold 15px arial, sans-serif;
+          text-shadow:none;
+            
+            }
 
 }
 
