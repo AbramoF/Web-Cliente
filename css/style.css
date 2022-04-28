@@ -81,13 +81,10 @@ p {
 }
 
 .tam-destaques {
-  width: 18rem;
+  width: 14rem;
   object-fit: cover;
 }
 
-.si{
-  size: 30%;
-}
 
 .form-submit-button {
   background-color: #ffc400;
@@ -222,26 +219,35 @@ p {
     margin: 5px;
     transition-duration: 0.4s;
   }
-  
-}
-
-.box{
-
-    margin-bottom: 1rem;
-    color: #ffc400;
-    display: block;
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 0.8rem 0.9rem;
-    width: 40%;
-    overflow: hidden;
-    justify-content: center;
-    border: 1px solid #333;
-    border-radius: 10px;
-    background-color: #333;
-  
 
 }
+
+.box {
+
+  margin-bottom: 1rem;
+  color: #ffc400;
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.8rem 0.9rem;
+  width: 40%;
+  overflow: hidden;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #333;
+
+}
+
+
+.si {
+  width: 70%;
+}
+
+.siz {
+  width: 50%;
+}
+
 
 .form-submit-button:hover:not(.active) {
   background-color: #ffc400a7;
@@ -408,7 +414,7 @@ p {
     text-decoration: none;
     border: none;
     border-radius: 4px;
-    margin:5px;
+    margin: 5px;
     transition-duration: 0.4s;
   }
 
@@ -510,7 +516,7 @@ p {
     font: bold 15px;
     border: none;
     border-radius: 4px;
-    margin:5px;
+    margin: 5px;
     transition-duration: 0.4s;
   }
 
@@ -523,7 +529,7 @@ p {
     text-decoration: none;
     border: none;
     border-radius: 4px;
-    margin:5px;
+    margin: 5px;
     transition-duration: 0.4s;
   }
 
