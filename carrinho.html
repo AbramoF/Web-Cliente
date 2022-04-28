@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset='utf-8'>
-        <title>Loja do Hardware Carrinho</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='css\style.css'>
-    </head>
+<head>
+    <meta charset='utf-8'>
+    <title>Loja do Hardware Carrinho</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\style.css'>
+</head>
 
-    <body>
+<body>
 
-        <div class="header">
-            <img src="imagem\banner1200.png" class="banner"> <!--banner grande-->
+    <div class="header">
+        <img src="imagem\banner1200.png" class="banner">
+        <!--banner grande-->
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Pagina Inicial</a></li>
+            <li><a href="paginaDeProdutos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li class="active" id="r"><a href="carrinho.html">Seu Carrinho</a></li>
+            <li class="rigth"><a href="cadastro.html">Login/Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <div class="flex-container-form">
+        <div class="box">
+
+            <b>Seu carrinho está vazio.</b>
+            <p>Deseja olhar outros produtos?</p>
+
+            <form>
+                <a href="paginaDeProdutos.html">
+                    <button type="button" class="form-submit-button2">Continuar Comprando</button>
+                </a>
+            </form>
         </div>
+    </div>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Pagina Inicial</a></li>
-                <li><a href="paginaDeProdutos.html">Produtos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li class="active" id="r"><a href="carrinho.html">Seu Carrinho</a></li>
-                <li class="rigth"><a href="cadastro.html">Login/Cadastro</a></li>
-            </ul>
-        </nav>
 
-        <br>
-        <div class="flex-container-form">
-            <div class="box">
+    <br><br><br><br><br>
+    <hr>
+    <footer>
+        <address>
+            Loja do Hardware<br>
+            Fone: (42) 4002-8922<br>
+            R. Doutor Washington Subtil Chueire, 330 - Jardim Carvalho
+            <br>Ponta Grossa - Paraná
+        </address>
+    </footer>
+</body>
 
-                <b>Seu carrinho está vazio.</b>
-                <p>Deseja olhar outros produtos?</p>
-                
-                <form>
-                    <a href="paginaDeProdutos.html">
-                        <button type="button" class="form-submit-button2">Continuar Comprando</button>
-                    </a>
-                </form>
-            </div>
-        </div>
-        
-
-		<br><br><br><br><br>
-        <hr>
-        <footer>
-            <address>
-                Loja do Hardware<br>
-                Fone: (42) 4002-8922<br>
-                R. Doutor Washington Subtil Chueire, 330 - Jardim Carvalho
-                <br>Ponta Grossa - Paraná
-            </address>
-        </footer>
-    </body>
 </html>
