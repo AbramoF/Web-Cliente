@@ -13,7 +13,7 @@ footer {
   font-family: 'Times New Roman', Times, serif;
 }
 
-ul {
+ul {              /* comeco da barra para navegar, tira as bordas da lista*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,10 +40,10 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #ffc400;
-}
+}                           /* fim da barra de navegar*/
 
 h1,
-h2 {
+h2 {                /*"titul" da pagina*/
   color: #ffc400;
   display: block;
   text-align: center;
@@ -55,7 +55,7 @@ h2 {
 
 }
 
-fieldset {
+fieldset {        /*background do formulario*/
   margin-bottom: 1rem;
   color: #ffc400;
   display: block;
@@ -86,7 +86,7 @@ p {
 }
 
 
-.form-submit-button {
+.form-submit-button {  /*inicio estilo dos botoes*/
   background-color: #ffc400;
   color: white;
   height: 40px;
@@ -108,7 +108,7 @@ p {
   border: none;
   border-radius: 4px;
   margin: 5px;
-  transition-duration: 0.4s;
+  transition-duration: 0.4s;/*fim do estilo dos botoes*/
 }
 
 
@@ -249,28 +249,28 @@ p {
 }
 
 
-.form-submit-button:hover:not(.active) {
+.form-submit-button:hover:not(.active) {  /*hover botao*/
   background-color: #ffc400a7;
 }
 
-.form-submit-button2:hover:not(.active) {
+.form-submit-button2:hover:not(.active) { /*hover botao*/
   background-color: #ffc400a7;
 }
 
-.flex-container {
+.flex-container {                     /*flex box*/
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.flex-container-form {
+.flex-container-form {    /*flex box secundaria para fazer wrap dos produtos*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.itens {
+.itens {            /*wrap, organizar produtos na tela*/
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
