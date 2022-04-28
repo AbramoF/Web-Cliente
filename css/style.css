@@ -94,7 +94,7 @@
 
       .form-submit-button2 {
         background: #ffc400;
-        color: white;
+        color: #333;
         border-style: outset;
         border-color: #ffc400;
         height: 30px;
@@ -251,7 +251,7 @@
 
             .form-submit-button2 {
               background: #ffc400;
-              color: white;
+              color: #333;
               border-style: outset;
               border-color: #ffc400;
               height: 30px;
@@ -356,7 +356,7 @@
 
         .form-submit-button2 {
           background: #ffc400;
-          color: white;
+          color: #333;
           border-style: outset;
           border-color: #ffc400;
           height: 30px;
