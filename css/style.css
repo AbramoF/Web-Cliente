@@ -77,6 +77,18 @@
       object-fit: cover;
     }
 
+  .form-submit-button {
+    background: #333;
+    color: white;
+    border-style: outset;
+    border-color: #333;
+    height: 40px;
+    width: 250px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    background-color: #111;
+      
+      }
 }
 
 .flex-container{
@@ -199,6 +211,18 @@
       object-fit: cover;
     }
 
+    .form-submit-button {
+      background: #333;
+      color: white;
+      border-style: outset;
+      border-color: #333;
+      height: 40px;
+      width: 250px;
+      font: bold 15px arial, sans-serif;
+      text-shadow:none;
+        
+        }
+
 }
 
 
@@ -279,5 +303,17 @@
       width: 8rem;
       object-fit: cover;
     }
+
+    .form-submit-button {
+      background: #333;
+      color: white;
+      border-style: outset;
+      border-color: #333;
+      height: 40px;
+      width: 250px;
+      font: bold 15px arial, sans-serif;
+      text-shadow:none;
+        
+        }
 
 }
