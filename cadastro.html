@@ -32,12 +32,12 @@
 
             <p>Login</p>
 
-            <form method="post" action="">
+            <form name="loginho" method="post" onsubmit="return validateLogin();">
 
-                <label> E-mail: <br><input type="email" name="email" required placeholder="usuario@email.com"
+                <label> E-mail: <br><input type="email" name="email"  placeholder="usuario@email.com"
                         class="si"></label><br>
 
-                <label> Senha: <br><input type="password" name="senha" required class="si"></label><br>
+                <label> Senha: <br><input type="password" name="senha"  class="si"></label><br>
 
                 <button type="submit" class="form-submit-button2">Entrar</button>
             </form>
@@ -47,32 +47,33 @@
         <fieldset>
 
             <p>Quero me cadastrar!</p>
+  
+            <form name="regist" method="post" onsubmit="return validateRegis();">
 
-            <form method="post" action="">
-                <label> Nome: <br><input type="text" name="nome" required placeholder="Nome Completo"
+                <label> Nome: <br><input type="text" name="nome"  placeholder="Nome Completo"
                         class="si"></label><br>
 
-                <label> E-mail: <br><input type="email" name="email" required placeholder="usuario@email.com"
+                <label> E-mail: <br><input type="email" name="email"  placeholder="usuario@email.com"
                         class="si"></label><br>
 
-                <label> Senha: <br><input type="password" name="senha" required class="si"></label><br>
+                <label> Senha: <br><input type="password" name="senha"  class="si"></label><br>
 
-                <label> CPF: <br><input type="text" name="cpf" required placeholder="40028922124" class="si"
+                <label> CPF: <br><input type="text" name="cpf"  placeholder="40028922124" class="si"
                         maxlength="11"></label><br>
 
-                <label> CEP: <br><input type="text" name="cep" required placeholder="05900111" class="si"
+                <label> CEP: <br><input type="text" name="cep"  placeholder="05900111" class="si"
                         maxlength="8"></label><br>
 
-                <label> Rua: <br><input type="text" name="rua" required placeholder="Rua Tiradentes"
+                <label> Rua: <br><input type="text" name="rua"  placeholder="Rua Tiradentes"
                         class="si"></label><br>
 
-                <label> Número: <br><input type="number" name="numero" required class="siz"></label><br>
+                <label> Número: <br><input type="number" name="numero"  class="siz"></label><br>
 
-                <label> Bairro: <br><input type="text" name="bairro" required class="si"></label><br>
+                <label> Bairro: <br><input type="text" name="bairro"  class="si"></label><br>
 
-                <label> Cidade: <br><input type="text" name="cidade" required class="si"></label><br>
+                <label> Cidade: <br><input type="text" name="cidade"  class="si"></label><br>
 
-                <button type="submit" class="form-submit-button2">Cadastrar</button>
+                <input type="button" value="Cadastrar" class="form-submit-button2">
             </form>
         </fieldset>
     </div>
@@ -89,6 +90,11 @@
             <br>Ponta Grossa - Paraná
         </address>
     </footer>
+
+
+    <script src="./validate.js"></script>
+    
+
 </body>
 
 </html>

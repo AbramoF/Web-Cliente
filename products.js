@@ -1,14 +1,14 @@
 const products =[
     {
         id:0,
-        nome:"sei la",
+        nome:"Fonte Corsair 750W",
         preco: 2,
         descricao:"Fonte Corsair 750W",
         img:"./imagem/corsair750.png",
     },
     {
         id:1,
-        nome:"sei la",
+        nome:"Fonte DeepCool 700W",
         preco: 2,
         descricao:"Fonte DeepCool 700W",
         img:"./imagem/deepcool700.png",
