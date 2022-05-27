@@ -17,27 +17,3 @@ function renderProdcuts() {
     });
 }
 renderProdcuts();
-
-
-let cart=[];
-
-function addToCart(id){
-    const item = products.find((products) => product.id== id);
-    
-    cart.push(item); 
-}
-
-
-let menor=10000;
-
-function ordemCrescente(){
-    products.forEach((product)=>{
-
-            
-
-
-
-
-    })
-
-}

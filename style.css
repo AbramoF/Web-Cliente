@@ -1,3 +1,12 @@
+
+
+img {
+  object-fit: cover;
+  height: 20%;
+  width: 50%;
+}
+
+
 body {
   font-size: 1.2rem;
   color: rgb(255, 255, 255);
@@ -13,7 +22,8 @@ footer {
   font-family: 'Times New Roman', Times, serif;
 }
 
-ul {              /* comeco da barra para navegar, tira as bordas da lista*/
+ul {
+  /* comeco da barra para navegar, tira as bordas da lista*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,10 +50,13 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #ffc400;
-}                           /* fim da barra de navegar*/
+}
+
+/* fim da barra de navegar*/
 
 h1,
-h2 {                /*"titul" da pagina*/
+h2 {
+  /*"titul" da pagina*/
   color: #ffc400;
   display: block;
   text-align: center;
@@ -55,7 +68,8 @@ h2 {                /*"titul" da pagina*/
 
 }
 
-fieldset {        /*background do formulario*/
+fieldset {
+  /*background do formulario*/
   margin-bottom: 1rem;
   color: #ffc400;
   display: block;
@@ -86,7 +100,8 @@ p {
 }
 
 
-.form-submit-button {  /*inicio estilo dos botoes*/
+.form-submit-button {
+  /*inicio estilo dos botoes*/
   background-color: #ffc400;
   color: white;
   height: 40px;
@@ -108,7 +123,8 @@ p {
   border: none;
   border-radius: 4px;
   margin: 5px;
-  transition-duration: 0.4s;/*fim do estilo dos botoes*/
+  transition-duration: 0.4s;
+  /*fim do estilo dos botoes*/
 }
 
 
@@ -249,28 +265,33 @@ p {
 }
 
 
-.form-submit-button:hover:not(.active) {  /*hover botao*/
+.form-submit-button:hover:not(.active) {
+  /*hover botao*/
   background-color: #ffc400a7;
 }
 
-.form-submit-button2:hover:not(.active) { /*hover botao*/
+.form-submit-button2:hover:not(.active) {
+  /*hover botao*/
   background-color: #ffc400a7;
 }
 
-.flex-container {                     /*flex box*/
+.flex-container {
+  /*flex box*/
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.flex-container-form {    /*flex box secundaria para fazer wrap dos produtos*/
+.flex-container-form {
+  /*flex box secundaria para fazer wrap dos produtos*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.itens {            /*wrap, organizar produtos na tela*/
+.itens {
+  /*wrap, organizar produtos na tela*/
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -532,7 +553,6 @@ p {
     margin: 5px;
     transition-duration: 0.4s;
   }
-
 
 
 }
