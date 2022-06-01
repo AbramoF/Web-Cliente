@@ -4,10 +4,24 @@ Grupo: Abramo Floriolli            RA 2165074
        Guilherme Portela Meller    RA 2198347
 
 
-
-       Duvidas:
-       Como passar o carrinho pra outra tela?
-
-       Max-Width?
-
-       Banner ou os itens em destaque?
+Ta quase pronto o svtinho!
+              
+             |   |   / /  
+               \ | /
+             
+              /--|--\
+             /______ \
+             |       |
+             |       |
+             |       |
+             |       |
+             |       |
+             |       |
+             |       |
+             |       |
+             |       |
+            /         \
+           /           \
+          |      |      |
+          |      |      |
+           \___________ /
